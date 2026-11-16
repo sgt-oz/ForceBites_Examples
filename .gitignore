@@ -1,0 +1,14 @@
+# Real credentials stay out of git -- .env.example is the template to commit.
+.env
+.env.*
+!.env.example
+
+# Python, virtual environments, editors and operating systems
+__pycache__/
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
